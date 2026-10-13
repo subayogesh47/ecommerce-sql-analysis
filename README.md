@@ -66,3 +66,13 @@ Used `EXPLAIN` to compare a date-range query before and after adding `idx_orders
 ## Author
 
 Subayogesh R | [LinkedIn](www.linkedin.com/in/suba-yogesh)
+
+## Sample results
+![Monthly growth](screenshots/monthly_growth.png)
+![Top products](screenshots/top_products.png)
+![RFM segments](screenshots/rfm.png)
+
+**Query optimization: before (full scan) vs after (index)**
+
+![EXPLAIN before](screenshots/explain_before.png)
+![EXPLAIN after](screenshots/explain_after.png)
